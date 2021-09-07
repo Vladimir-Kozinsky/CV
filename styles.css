@@ -15,14 +15,26 @@ header {
     width: 90%;
     margin: 0 auto;
 }
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .avatarContainer {
     margin-top: 15px;
     height: 20px;
     float: left;
 }
+
 .avatarContainer img {
     height: 200px;
 }
+
 main {
     width: 90%;
     margin: 0 auto;
@@ -38,7 +50,7 @@ main {
     margin-top: 15px;
     margin-left: 40px;
     float: left;
-    width: 27%;
+    width: 500px;
 }
 
 .cvContainer {
@@ -59,7 +71,7 @@ h1, h2, h3, h4 {
     color: #333;
 }
 
-.educationContent, .skillsContent, .languagesContent, .experienceContent {
+.educationContent, .skillsContent, .languagesContent, .experienceContent, .certificatesContent {
     border-top: #ccc solid 1px;
 }
 
